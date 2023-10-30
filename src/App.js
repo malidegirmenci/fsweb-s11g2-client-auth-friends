@@ -1,12 +1,13 @@
 import './App.css';
 import Header from './components/Header';
-import Login from './components/Login';
+//import AddFriend from './components/AddFriend';
+//import FriendList from './components/FriendList';
+//import Login from './components/Login';
 
 function App() {
   return (
-    <div className="bg-slate-200 App">
+    <div className="App">
       <Header/>
-      <Login/>
     </div>
   );
 }
